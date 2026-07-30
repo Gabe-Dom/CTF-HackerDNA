@@ -1,11 +1,12 @@
-# Write-up for Hack the Login
+# Hack the Login
 
-| **Platform**  | HackerDNA                                 |
-| ------------- | ----------------------------------------- |
-| **Lab URL**   | https://hackerdna.com/labs/hack-the-login |
-| **Category**  | Web & API Security                        |
-| **Objective** | Authentication bypass                     |
-| **Author**    | Gabriel Dom                               |
+| Challenge:     | Hack the Login                            |
+| -------------- | ----------------------------------------- |
+| **Platform**:  | HackerDNA                                 |
+| **Lab URL:**   | https://hackerdna.com/labs/hack-the-login |
+| **Category:**  | Web & API Security                        |
+| **Objective:** | Authentication bypass                     |
+| **Author:**    | Gabriel Dom                               |
 
 ---
 ## Reconnaissance
@@ -28,4 +29,5 @@ The URL to the flag file is hard-coded in the event listener code in `script.js`
 - Protect access to the flag file on the server-side. Currently, anyone who knows and guesses the URL to the flag file can load it.
 ### Secondary
 - Even with authentication and authorization moved to the server side, it is better not to use credentials hard-coded in the code. Instead store a salted hash of the password in a secure store on the server.
----
+
+
