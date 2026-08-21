@@ -12,7 +12,8 @@ nav:
   - Home: index.md
   - Write-ups:
       - Hack the Login: hack-the-login.md
-      - Secrets in Source: secrets-in-source-2.md
+      - Secrets in Source 2: secrets-in-source-2.md
+      - Hack the Cookie: hack-the-cookie.md
      
 markdown_extensions:
   - admonition
