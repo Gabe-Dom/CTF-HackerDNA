@@ -10,7 +10,7 @@
 
 ---
 ## Reconnaissance
-The exercise gives a single SHA1 hash and information that the  plaintext is a common English word in the following format: `s******y`. Before applying any brute-force guessing, it's worth to look at the given clues and try the most obvious word, taking into account this is a cyber security platform.
+The exercise gives a single SHA1 hash and information that the  plaintext is a common English word in the following format: `s******y`. Before applying any brute-force guessing, it's worth to look at the given clues and try the most obvious word, taking into account the general domain of the HackerDNA platform.
 
 It turn out the most obvious word was the correct answer, no SHA1 guessing was needed.
 
