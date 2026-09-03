@@ -16,6 +16,7 @@ nav:
       - Hack the Cookie: hack-the-cookie.md
       - Nmap Commands Lab: nmap-commands-lab.md
       - Base64 Detective: base64-detective.md
+      - Hex Hunt: hex-hunt.md
      
 markdown_extensions:
   - admonition
