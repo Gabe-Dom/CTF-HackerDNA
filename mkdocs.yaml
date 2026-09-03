@@ -11,10 +11,11 @@ theme:
 nav:
   - Home: index.md
   - Write-ups:
-      - Hack the Login: hack-the-login.md
-      - Secrets in Source 2: secrets-in-source-2.md
-      - Hack the Cookie: hack-the-cookie.md
       - Nmap Commands Lab: nmap-commands-lab.md
+      - Secrets in Source 2: secrets-in-source-2.md
+      - Hack the Login: hack-the-login.md
+      - Hack the Cookie: hack-the-cookie.md
+      - Type Juggling Bypass: type-juggling-bypass.md
       - Base64 Detective: base64-detective.md
       - Hex Hunt: hex-hunt.md
      
