@@ -14,6 +14,7 @@ nav:
       - Hack the Login: hack-the-login.md
       - Secrets in Source 2: secrets-in-source-2.md
       - Hack the Cookie: hack-the-cookie.md
+      - Nmap Commands Lab: nmap-commands-lab.md
      
 markdown_extensions:
   - admonition
