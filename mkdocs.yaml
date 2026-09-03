@@ -16,6 +16,7 @@ nav:
       - Hack the Login: hack-the-login.md
       - Hack the Cookie: hack-the-cookie.md
       - Type Juggling Bypass: type-juggling-bypass.md
+      - Crack SHA1 Hash: crack-sha1-hash.md
       - Base64 Detective: base64-detective.md
       - Hex Hunt: hex-hunt.md
      
