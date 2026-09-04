@@ -18,6 +18,7 @@ nav:
       - Type Juggling Bypass: type-juggling-bypass.md
       - Crack SHA1 Hash: crack-sha1-hash.md
       - Base64 Detective: base64-detective.md
+      - Stego Hunt: stego-hunt.md
       - Hex Hunt: hex-hunt.md
      
 markdown_extensions:
