@@ -11,18 +11,19 @@ theme:
 nav:
   - Home: index.md
   - Write-ups:
-      - Nmap Commands Lab: nmap-commands-lab.md
-      - Secrets in Source 2: secrets-in-source-2.md
-      - Hack the Login: hack-the-login.md
-      - Hack the Cookie: hack-the-cookie.md
-      - Fine Print: fine-print.md
-      - Type Juggling Bypass: type-juggling-bypass.md
+      - Base64 Detective: base64-detective.md   
+      - Blockchain Secrets: blockchain-secrets.md
       - Crack SHA1 Hash: crack-sha1-hash.md
-      - Base64 Detective: base64-detective.md
-      - QR Code Quest: qr-code-quest.md      
-      - Packet Pursuit: packet-pursuit
-      - Stego Hunt: stego-hunt.md
+      - Fine Print: fine-print.md
+      - Hack the Cookie: hack-the-cookie.md
+      - Hack the Login: hack-the-login.md
       - Hex Hunt: hex-hunt.md
+      - Nmap Commands Lab: nmap-commands-lab.md
+      - Packet Pursuit: packet-pursuit
+      - QR Code Quest: qr-code-quest.md      
+      - Secrets in Source 2: secrets-in-source-2.md
+      - Stego Hunt: stego-hunt.md
+      - Type Juggling Bypass: type-juggling-bypass.md
      
 markdown_extensions:
   - admonition
