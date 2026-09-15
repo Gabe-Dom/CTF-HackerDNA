@@ -15,6 +15,7 @@ nav:
       - Secrets in Source 2: secrets-in-source-2.md
       - Hack the Login: hack-the-login.md
       - Hack the Cookie: hack-the-cookie.md
+      - Fine Print: fine-print.md
       - Type Juggling Bypass: type-juggling-bypass.md
       - Crack SHA1 Hash: crack-sha1-hash.md
       - Base64 Detective: base64-detective.md
