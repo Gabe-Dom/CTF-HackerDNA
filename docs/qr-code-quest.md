@@ -11,8 +11,8 @@
 ---
 ## Reconnaissance
 
-Decoding the QR code with `qrca` returns a string of hexadecimal digits. This suggests the data is hex-encoded. It can be decoded back to its original binary form with `xxd -r -p`. Once decoded, the flag is revealed.
+The challenge begins with a web page that contains an image with a QR code. Downloading the QR code and decoding it with `qrca` returns a sequence of hexadecimal digits. This indicates that the data is hex-encoded. It can be converted back to its original binary form with `xxd -r -p`. Once decoded, the flag is revealed.
 
 ## Recommended mitigation
 
-For real secrets, use a strong cryptographic mechanism that matches your specific use case. Encoding alone, including QR codes, does not provide meaningful protection.
+For real secrets, use a strong cryptographic mechanism that matches your specific use case. Encoding alone, including QR code encoding, does not provide meaningful protection.
