@@ -1,36 +1,31 @@
-site_name: HackerDNA CTF Write-ups
-site_description: Independent write-ups for CTF exercises from the HackerDNA platform
+site_name: 'HackerDNA CTF Write-ups'
+site_description: 'Independent write-ups for CTF exercises from the HackerDNA platform'
 site_url: https://gabe-dom.github.io/CTF-HackerDNA/
-
 repo_url: https://github.com/Gabe-Dom/CTF-HackerDNA
 repo_name: Gabe-Dom/CTF-HackerDNA
-
 theme:
   name: readthedocs
-
 nav:
   - Home: index.md
   - Write-ups:
-      - Base64 Detective: base64-detective.md   
-      - Blockchain Secrets: blockchain-secrets.md
-      - Crack SHA1 Hash: crack-sha1-hash.md
-      - Fine Print: fine-print.md
-      - Hack the Cookie: hack-the-cookie.md
-      - Hack the Login: hack-the-login.md
-      - Hex Hunt: hex-hunt.md
-      - Nmap Commands Lab: nmap-commands-lab.md
-      - Packet Pursuit: packet-pursuit
-      - QR Code Quest: qr-code-quest.md      
-      - Secrets in Source 2: secrets-in-source-2.md
-      - Stego Hunt: stego-hunt.md
-      - Type Juggling Bypass: type-juggling-bypass.md
-     
+      - 'Base64 Detective': base64-detective.md
+      - 'Blockchain Secrets': blockchain-secrets.md
+      - 'Crack SHA1 Hash': crack-sha1-hash.md
+      - 'Fine Print': fine-print.md
+      - 'Hack the Cookie': hack-the-cookie.md
+      - 'Hack the Login': hack-the-login.md
+      - 'Hex Hunt': hex-hunt.md
+      - 'Nmap Commands Lab': nmap-commands-lab.md
+      - 'Packet Pursuit': packet-pursuit.md
+      - 'QR Code Quest': qr-code-quest.md
+      - 'Secrets in Source 2': secrets-in-source-2.md
+      - 'Stego Hunt': stego-hunt.md
+      - 'Type Juggling Bypass': type-juggling-bypass.md
 markdown_extensions:
   - admonition
   - toc:
       permalink: true
   - tables
   - fenced_code
-
 extra:
   generator: false
