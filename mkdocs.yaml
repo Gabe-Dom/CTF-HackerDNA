@@ -11,6 +11,7 @@ nav:
       - 'Base64 Detective': base64-detective.md
       - 'Blockchain Secrets': blockchain-secrets.md
       - 'Crack SHA1 Hash': crack-sha1-hash.md
+      - 'DNS Exfil': dns-exfil.md
       - 'Fine Print': fine-print.md
       - 'Hack the Cookie': hack-the-cookie.md
       - 'Hack the Login': hack-the-login.md
@@ -18,6 +19,7 @@ nav:
       - 'Nmap Commands Lab': nmap-commands-lab.md
       - 'Packet Pursuit': packet-pursuit.md
       - 'QR Code Quest': qr-code-quest.md
+      - 'Red is Dead': red-is-dead.md      
       - 'Secrets in Source 2': secrets-in-source-2.md
       - 'Stego Hunt': stego-hunt.md
       - 'Type Juggling Bypass': type-juggling-bypass.md
