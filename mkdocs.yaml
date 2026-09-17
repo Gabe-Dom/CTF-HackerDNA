@@ -8,22 +8,23 @@ theme:
 nav:
   - Home: index.md
   - Write-ups:
-      - 'Base64 Detective': base64-detective.md
-      - 'Blockchain Secrets': blockchain-secrets.md
-      - 'Crack SHA1 Hash': crack-sha1-hash.md
-      - 'DNS Exfil': dns-exfil.md
-      - 'Fine Print': fine-print.md
-      - 'Hack the Cookie': hack-the-cookie.md
-      - 'Hack the Login': hack-the-login.md
-      - 'Hex Hunt': hex-hunt.md
-      - 'Nmap Commands Lab': nmap-commands-lab.md
-      - 'Packet Pursuit': packet-pursuit.md
-      - 'PDF Trap': pdf-trap.md
-      - 'QR Code Quest': qr-code-quest.md
-      - 'Red is Dead': red-is-dead.md
-      - 'Secrets in Source 2': secrets-in-source-2.md
-      - 'Stego Hunt': stego-hunt.md
-      - 'Type Juggling Bypass': type-juggling-bypass.md
+      - Base64 Detective: base64-detective.md
+      - Binary Secrets: binary-secrets.md
+      - Blockchain Secrets: blockchain-secrets.md
+      - Crack SHA1 Hash: crack-sha1-hash.md
+      - DNS Exfil: dns-exfil.md
+      - Fine Print: fine-print.md
+      - Hack the Cookie: hack-the-cookie.md
+      - Hack the Login: hack-the-login.md
+      - Hex Hunt: hex-hunt.md
+      - Nmap Commands Lab: nmap-commands-lab.md
+      - Packet Pursuit: packet-pursuit.md
+      - PDF Trap: pdf-trap.md
+      - QR Code Quest: qr-code-quest.md
+      - Red is Dead: red-is-dead.md
+      - Secrets in Source 2: secrets-in-source-2.md
+      - Stego Hunt: stego-hunt.md
+      - Type Juggling Bypass: type-juggling-bypass.md
 markdown_extensions:
   - admonition
   - toc:
