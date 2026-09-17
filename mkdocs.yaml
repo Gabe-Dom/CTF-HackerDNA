@@ -18,8 +18,9 @@ nav:
       - 'Hex Hunt': hex-hunt.md
       - 'Nmap Commands Lab': nmap-commands-lab.md
       - 'Packet Pursuit': packet-pursuit.md
+      - 'PDF Trap': pdf-trap.md
       - 'QR Code Quest': qr-code-quest.md
-      - 'Red is Dead': red-is-dead.md      
+      - 'Red is Dead': red-is-dead.md
       - 'Secrets in Source 2': secrets-in-source-2.md
       - 'Stego Hunt': stego-hunt.md
       - 'Type Juggling Bypass': type-juggling-bypass.md
