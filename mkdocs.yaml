@@ -12,8 +12,10 @@ nav:
       - Binary Secrets: binary-secrets.md
       - Blockchain Secrets: blockchain-secrets.md
       - Crack SHA1 Hash: crack-sha1-hash.md
+      - Crypto Cipher: crypto-cipher.md
       - DNS Exfil: dns-exfil.md
       - Fine Print: fine-print.md
+      - Get the Password: get-the-password.md
       - Hack the Cookie: hack-the-cookie.md
       - Hack the Login: hack-the-login.md
       - Hex Hunt: hex-hunt.md
