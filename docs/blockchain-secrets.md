@@ -25,7 +25,7 @@ cat transaction_data.json | jq '.vout[1].scriptPubKey.hex'
 ```
 Decoding the value back to its binary form with `xxd -r -p` reveals the flag.
 
-## Enumeration && Exploitation
+## Enumeration and Exploitation
 
 No enumeration or exploitation was needed; everything was included in the public transaction data.
 

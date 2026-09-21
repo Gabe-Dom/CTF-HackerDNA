@@ -10,17 +10,17 @@
 
 ---
 ## Reconnaissance
-The lab starts with a web page instructing to uncover the hidden flag and enter the correct sequence.
+The lab starts with a web page instructing the user to uncover the hidden flag and enter the correct sequence.
 
 Looking at the page source code shows data stored in a JavaScript array. When the page loads, the data is decoded into a `const` named `correctSequence`. When a user enters a value into the form on the page, the entered value is compared to the value of `correctSequence`.
 
-There is also an event listener defined on `load`, that logs to the console some clues about `correctSequence`. 
+There is also an event listener defined on `load` that logs clues about `correctSequence` to the console.
 
-With Developer Tools we can place the following *logpoint* in the listener: 
+With Developer Tools, we can place the following *logpoint* in the listener:
 ```
 'correctSequence is:', correctSequence
 ```
-After reloading the page, the value of `correctSequence` is printed to the console. 
+After reloading the page, the value of `correctSequence` is printed to the console.
 
 ## Enumeration
 Submitting the value of `correctSequence` reveals that the `correctSequence` is actually the flag.

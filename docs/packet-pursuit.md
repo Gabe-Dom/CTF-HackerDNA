@@ -18,7 +18,6 @@ Applying the initial broad filter `frame matches "(?i)flag"` reveals that the fl
 
 In DNS query packets, parts of the flag are hidden in artificial hostnames in the `lab.hdna.me` domain. This is a well-known data-exfiltration technique. We can extract the flag using the following tools:
 
-
 **tshark** to extract the fully qualified domain names (FQDNs) from DNS packets containing the flag:
 ```
 tshark -r challenge.pcap \
@@ -26,7 +25,6 @@ tshark -r challenge.pcap \
   -T fields -e dns.qry.name
 ```
 The `-r` flag tells `tshark` to read the capture file. The `-Y` option specifies the filter, in this case DNS requests whose queries contain `flag_`. Finally, the `-T` and `-e` options instruct `tshark` to output the value of the `dns.qry.name` field, where the flag is hidden.
-
 
 **sed** to extract the actual flag part from each FQDN:
 ```
