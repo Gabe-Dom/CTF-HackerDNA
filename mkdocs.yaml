@@ -23,6 +23,7 @@ nav:
       - Infiltrator: infiltrator.md
       - Nmap Commands Lab: nmap-commands-lab.md
       - Packet Pursuit: packet-pursuit.md
+      - Password Cracking: password-cracking-custom-wordlist.md
       - PDF Trap: pdf-trap.md
       - QR Code Quest: qr-code-quest.md
       - Red is Dead: red-is-dead.md
