@@ -30,6 +30,7 @@ nav:
       - Secrets in Source 2: secrets-in-source-2.md
       - Stego Hunt: stego-hunt.md
       - Type Juggling Bypass: type-juggling-bypass.md
+      - ZIP Cracker: zip-cracker.md
 markdown_extensions:
   - admonition
   - toc:
