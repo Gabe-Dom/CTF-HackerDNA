@@ -79,12 +79,12 @@ john --show vault.hash
 ```
 
 ## Recommended mitigation
-For admins:
+### For admins
 - Protect any directories that are not intended to be public, especially anything containing credentials.
 - Leaving backups unprotected is a common mistake. Make a special effort to ensure backups are secured by default.
 - Do not use unsalted MD5 for passwords. Instead, use one of the dedicated password hashing schemes such as Argon2, bcrypt, or scrypt.
 
-For users:
+### For users
 - Do not reuse your passwords.
 - Do not base your passwords or passphrases on public information about you.
 - Despite the popular misconception, adding special characters or digits to a password does not meaningfully improve its strength. Use long passwords or passphrases: length beats complexity.
