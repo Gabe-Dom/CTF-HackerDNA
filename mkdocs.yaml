@@ -5,6 +5,8 @@ repo_url: https://github.com/Gabe-Dom/CTF-HackerDNA
 repo_name: Gabe-Dom/CTF-HackerDNA
 theme:
   name: readthedocs
+  titles_only: true
+  include_homepage_in_sidebar: false
 nav:
   - Home: index.md
   - Write-ups:
