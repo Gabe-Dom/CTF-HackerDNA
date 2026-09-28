@@ -13,6 +13,7 @@ nav:
       - Base64 Detective: base64-detective.md
       - Binary Secrets: binary-secrets.md
       - Blockchain Secrets: blockchain-secrets.md
+      - Caesar Shift Decoder: caesar-shift-decoder.md
       - Crack SHA1 Hash: crack-sha1-hash.md
       - Crypto Cipher: crypto-cipher.md
       - DNS Exfil: dns-exfil.md
@@ -23,17 +24,21 @@ nav:
       - Hex Hunt: hex-hunt.md
       - HTTP Smuggling: http-smuggling.md
       - Infiltrator: infiltrator.md
+      - KeePass Breaker: keepass-breaker.md
       - Nmap Commands Lab: nmap-commands-lab.md
+      - Office Password Cracker: office-password-cracker.md
       - Packet Pursuit: packet-pursuit.md
       - Password Cracking: password-cracking-custom-wordlist.md
+      - PDF Password Cracker: pdf-password-cracker.md
       - PDF Trap: pdf-trap.md
       - QR Code Quest: qr-code-quest.md
       - Red is Dead: red-is-dead.md
       - Secrets in Source 2: secrets-in-source-2.md
+      - Shadow Cracker: shadow-cracker.md
       - Stego Hunt: stego-hunt.md
       - Type Juggling Bypass: type-juggling-bypass.md
-      - ZIP Cracker: zip-cracker.md
       - XOR Reuse: xor-reuse.md
+      - ZIP Cracker: zip-cracker.md
 markdown_extensions:
   - admonition
   - toc:
