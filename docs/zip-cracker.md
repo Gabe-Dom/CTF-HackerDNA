@@ -1,17 +1,17 @@
 # ZIP Cracker
 
-| Challenge:     | ZIP Cracker                        |
-| -------------- | ---------------------------------- |
-| **Platform**:  | HackerDNA                          |
+| Challenge:     | ZIP Cracker                            |
+| -------------- | -------------------------------------- |
+| **Platform**:  | HackerDNA                              |
 | **Lab URL:**   | https://hackerdna.com/labs/zip-cracker |
-| **Category:**  | Cryptography                       |
-| **Objective:** | Crack the password protected zip   |
-| **Author:**    | Gabriel Dom                        |
+| **Category:**  | Cryptography                           |
+| **Objective:** | Crack the password-protected ZIP       |
+| **Author:**    | Gabriel Dom                            |
 
 ---
 ## Reconnaissance
 
-The lab starts with a page offering a password protected archive to download. We save it locally as `secret_archive.zip`.
+The lab starts with a page offering a password-protected archive for download. We save it locally as `secret_archive.zip`.
 
 Let's examine it:
 ```
@@ -22,12 +22,15 @@ Zip file size: 231 bytes, number of entries: 1
 1 file, 37 bytes uncompressed, 37 bytes compressed:  0.0%
 ```
 
-Extract the information from the archive that `john` needs to verify the password during guessing:
+# Enumeration
+Extract the information `john` needs from the archive to verify password guesses:
 ```
 > zip2john secret_archive.zip > archive.john
 ver 1.0 efh 5455 efh 7875 secret_archive.zip/flag.txt PKZIP Encr: 2b chk, TS_chk, cmplen=49, decmplen=37, crc=AB3917CF
 ```
 The output tells us that the archive uses weak, obsolete PKZIP encryption.
+
+## Exploitation
 
 Let's run the tool:
 ```
@@ -38,6 +41,6 @@ john --show archive.john
 Now we can extract the file from the archive and read the flag.
 
 ## Recommended mitigation
-
+- Do not rely on password protection as the sole protection for confidential material. Deliver such material through authenticated, authorization-controlled access.
 - Do not use traditional PKZIP encryption, also known as ZipCrypto. Modern ZIP implementations use AES-256 encryption.
 - Do not use well-known passwords that appear in popular leak lists, even if they are relatively long.
