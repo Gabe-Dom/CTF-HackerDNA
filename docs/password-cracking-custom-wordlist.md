@@ -1,12 +1,12 @@
 # Password Cracking - Custom Wordlist Attack
 
-| Challenge:       | Password Cracking - Custom Wordlist Attack                         |
-| ---------------- | ------------------------------------------------------------------ |
-| **Platform**:    | HackerDNA                                                          |
-| **Lab URL:**     | https://hackerdna.com/labs/password-cracking-custom-wordlist       |
-| **Category:**    | Cryptography                                                       |
-| **Objective:**   | Crack passwords using custom wordlists                             |
-| **Author:**      | Gabriel Dom                                                        |
+| Challenge:     | Password Cracking - Custom Wordlist Attack                   |
+| -------------- | ------------------------------------------------------------ |
+| **Platform**:  | HackerDNA                                                    |
+| **Lab URL:**   | https://hackerdna.com/labs/password-cracking-custom-wordlist |
+| **Category:**  | Cryptography                                                 |
+| **Objective:** | Crack passwords using custom wordlists                       |
+| **Author:**    | Gabriel Dom                                                  |
 
 ---
 ## Reconnaissance

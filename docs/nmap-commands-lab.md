@@ -1,12 +1,12 @@
 # Nmap Commands Lab
 
-| Challenge:     | Nmap Commands Lab                      |
-| -------------- | -------------------------------------- |
-| **Platform**:  | HackerDNA                              |
-| **Lab URL:**   | https://hackerdna.com/labs/learn-102   |
-| **Category:**  | Network & Infrastructure               |
-| **Objective:** | Port Scanning to Privilege Escalation  |
-| **Author:**    | Gabriel Dom                            |
+| Challenge:     | Nmap Commands Lab                     |
+| -------------- | ------------------------------------- |
+| **Platform**:  | HackerDNA                             |
+| **Lab URL:**   | https://hackerdna.com/labs/learn-102  |
+| **Category:**  | Network & Infrastructure              |
+| **Objective:** | Port Scanning to Privilege Escalation |
+| **Author:**    | Gabriel Dom                           |
 
 ---
 ## Reconnaissance

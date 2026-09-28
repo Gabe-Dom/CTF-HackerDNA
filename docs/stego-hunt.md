@@ -1,7 +1,7 @@
 # Stego Hunt
 
-| Challenge:     | Stego Hunt |
-| -------------- | --------------------------------------|
+| Challenge:     | Stego Hunt                            |
+| -------------- | ------------------------------------- |
 | **Platform**:  | HackerDNA                             |
 | **Lab URL:**   | https://hackerdna.com/labs/stego-hunt |
 | **Category:**  | Digital Forensics & IR                |

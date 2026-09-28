@@ -1,12 +1,12 @@
 # Fine Print
 
-| Challenge:     | Fine Print                                |
-| -------------- | ----------------------------------------- |
-| **Platform**:  | HackerDNA                                 |
-| **Lab URL:**   | https://hackerdna.com/labs/fine-print     |
-| **Category:**  | Digital Forensics & IR                    |
-| **Objective:** | Find the hidden flag                      |
-| **Author:**    | Gabriel Dom                               |
+| Challenge:     | Fine Print                            |
+| -------------- | ------------------------------------- |
+| **Platform**:  | HackerDNA                             |
+| **Lab URL:**   | https://hackerdna.com/labs/fine-print |
+| **Category:**  | Digital Forensics & IR                |
+| **Objective:** | Find the hidden flag                  |
+| **Author:**    | Gabriel Dom                           |
 
 ---
 ## Reconnaissance

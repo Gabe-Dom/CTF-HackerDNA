@@ -1,12 +1,12 @@
 # XOR Reuse
 
-| Challenge:     | XOR Reuse                          |
-| -------------- | ---------------------------------- |
-| **Platform**:  | HackerDNA                          |
+| Challenge:     | XOR Reuse                            |
+| -------------- | ------------------------------------ |
+| **Platform**:  | HackerDNA                            |
 | **Lab URL:**   | https://hackerdna.com/labs/xor-reuse |
-| **Category:**  | Cryptography                       |
-| **Objective:** | Find the hidden flag               |
-| **Author:**    | Gabriel Dom                        |
+| **Category:**  | Cryptography                         |
+| **Objective:** | Find the hidden flag                 |
+| **Author:**    | Gabriel Dom                          |
 
 ---
 ## Reconnaissance

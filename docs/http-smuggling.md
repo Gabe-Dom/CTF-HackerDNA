@@ -1,12 +1,12 @@
 # HTTP Smuggling
 
-| Challenge:     | HTTP Smuggling                            |
-| -------------- | ------------------------------------------|
-| **Platform**:  | HackerDNA                                 |
-| **Lab URL:**   | https://hackerdna.com/labs/http-smuggling |
-| **Category:**  | Digital Forensics & IR                    |
+| Challenge:     | HTTP Smuggling                                                                       |
+| -------------- | ------------------------------------------------------------------------------------ |
+| **Platform**:  | HackerDNA                                                                            |
+| **Lab URL:**   | https://hackerdna.com/labs/http-smuggling                                            |
+| **Category:**  | Digital Forensics & IR                                                               |
 | **Objective:** | Analyze the captured network traffic<br> to uncover an HTTP request smuggling attack |
-| **Author:**    | Gabriel Dom                               |
+| **Author:**    | Gabriel Dom                                                                          |
 
 ---
 ## Reconnaissance

@@ -1,12 +1,12 @@
 # Get the Password
 
-| Challenge:     | Get the Password                        |
-| -------------- | ---------------------------------- |
-| **Platform**:  | HackerDNA                          |
+| Challenge:     | Get the Password                            |
+| -------------- | ------------------------------------------- |
+| **Platform**:  | HackerDNA                                   |
 | **Lab URL:**   | https://hackerdna.com/labs/get-the-password |
-| **Category:**  | Cryptography                    |
-| **Objective:** | Crack the password              |
-| **Author:**    | Gabriel Dom                        |
+| **Category:**  | Cryptography                                |
+| **Objective:** | Crack the password                          |
+| **Author:**    | Gabriel Dom                                 |
 
 ---
 ## Reconnaissance

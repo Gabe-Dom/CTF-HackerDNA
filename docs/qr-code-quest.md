@@ -1,6 +1,6 @@
 # QR Code Quest
 
-| Challenge:     | QR Code Quest |
+| Challenge:     | QR Code Quest                            |
 | -------------- | ---------------------------------------- |
 | **Platform**:  | HackerDNA                                |
 | **Lab URL:**   | https://hackerdna.com/labs/qr-code-quest |

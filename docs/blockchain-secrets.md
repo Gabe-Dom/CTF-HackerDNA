@@ -1,12 +1,12 @@
 # Blockchain Secrets
 
-| Challenge:     | Blockchain Secrets |
-| -------------- | --------------------------------------------- |
-| **Platform**:  | HackerDNA                                     |
-| **Lab URL:**   | https://hackerdna.com/labs/blockchain-secrets |
-| **Category:**  | Digital Forensics & IR                        |
+| Challenge:     | Blockchain Secrets                               |
+| -------------- | ------------------------------------------------ |
+| **Platform**:  | HackerDNA                                        |
+| **Lab URL:**   | https://hackerdna.com/labs/blockchain-secrets    |
+| **Category:**  | Digital Forensics & IR                           |
 | **Objective:** | Find the flag hidden in a blockchain transaction |
-| **Author:**    | Gabriel Dom                                   |
+| **Author:**    | Gabriel Dom                                      |
 
 ---
 ## Reconnaissance

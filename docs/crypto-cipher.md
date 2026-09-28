@@ -1,7 +1,7 @@
 # Crypto Cipher
 
 | Challenge:     | Crypto Cipher                            |
-| -------------- | ---------------------------------------  |
+| -------------- | ---------------------------------------- |
 | **Platform**:  | HackerDNA                                |
 | **Lab URL:**   | https://hackerdna.com/labs/crypto-cipher |
 | **Category:**  | Cryptography                             |

@@ -1,12 +1,12 @@
 # Red is Dead
 
-| Challenge:     | Red is Dead                                              |
-| -------------- | -------------------------------------------------------- |
-| **Platform**:  | HackerDNA                                                |
-| **Lab URL:**   | https://hackerdna.com/labs/red-is-dead                   |
-| **Category:**  | Digital Forensics & IR                                   |
-| **Objective:** | Discover and analyze services to find the hidden flag    |
-| **Author:**    | Gabriel Dom                                              |
+| Challenge:     | Red is Dead                                           |
+| -------------- | ----------------------------------------------------- |
+| **Platform**:  | HackerDNA                                             |
+| **Lab URL:**   | https://hackerdna.com/labs/red-is-dead                |
+| **Category:**  | Digital Forensics & IR                                |
+| **Objective:** | Discover and analyze services to find the hidden flag |
+| **Author:**    | Gabriel Dom                                           |
 
 ---
 ## Reconnaissance
