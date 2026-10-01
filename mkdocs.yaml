@@ -37,6 +37,7 @@ nav:
       - Shadow Cracker: shadow-cracker.md
       - Stego Hunt: stego-hunt.md
       - Type Juggling Bypass: type-juggling-bypass.md
+      - Windows Password Cracker: windows-password-cracker.md
       - XOR Reuse: xor-reuse.md
       - ZIP Cracker: zip-cracker.md
 markdown_extensions:
