@@ -13,6 +13,7 @@ nav:
       - Base64 Detective: base64-detective.md
       - Binary Secrets: binary-secrets.md
       - Blockchain Secrets: blockchain-secrets.md
+      - Book Cipher Challenge: book-cipher-challenge.md
       - Caesar Shift Decoder: caesar-shift-decoder.md
       - Crack SHA1 Hash: crack-sha1-hash.md
       - Crypto Cipher: crypto-cipher.md
