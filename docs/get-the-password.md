@@ -23,7 +23,7 @@ No enumeration was needed; everything we needed was plainly available in the sou
 
 If our objective were to break the authentication, we could modify the client-side script. However, the goal is to get the password, so instead we need to exploit the weakness of storing passwords in an unsalted MD5 hash. We will find the password with repeated guesses, which is an effective attack against MD5 hashes.
 
-We will use John the Ripper for this purpose. First, we need to put the target hash in a file. Let's name it `md5.john`. The contents of the file are:
+We will use John the Ripper for this purpose. First, we need to put the target hash in a file. Let’s name it `md5.john`. The contents of the file are:
 ```
 target:5416d7cd6ef195a0f7622a9c56b55e84
 ```

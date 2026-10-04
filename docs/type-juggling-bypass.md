@@ -14,7 +14,7 @@ The lab starts with a login page for the "Admin Portal." There is a form with "U
 
 Clicking the link shows the PHP source code of the web page. We can see that the data entered into the form and submitted by the user is compared to hard-coded values. The `username` is compared directly to `admin`, and the `password` is hashed with MD5 and compared to a hard-coded hash. There is no need to crack the hash, because the password value is written in the comment next to it.
 
-The flag is also clearly visible in the PHP source, so we could use it without actually breaking into the admin panel. However, let's achieve the objective and actually enter the panel.
+The flag is also clearly visible in the PHP source, so we could use it without actually breaking into the admin panel. However, let’s achieve the objective and actually enter the panel.
 
 ## Enumeration
 Submitting the username `admin` and the password copied from the PHP source gets us into the "Admin Portal" and reveals the flag.

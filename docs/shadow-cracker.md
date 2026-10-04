@@ -15,9 +15,9 @@ The lab provides a Linux `shadow` file and instructions to recover credentials.
 
 ## Enumeration
 
-Examining the file, we can see that only one line, for the user `admin`, actually contains credentials. Let's extract this line to a separate `shadow.admin` file.
+Examining the file, we can see that only one line, for the user `admin`, actually contains credentials. Let’s extract this line to a separate `shadow.admin` file.
 
-The credentials field is in MCF format (also called `crypt(3)` format). It starts with `$6$`, which indicates that SHA-512 is used as the hashing algorithm. Let's identify the hash format with `john`:
+The credentials field is in MCF format (also called `crypt(3)` format). It starts with `$6$`, which indicates that SHA-512 is used as the hashing algorithm. Let’s identify the hash format with `john`:
 
 ```
 john --show=formats shadow.admin | jq

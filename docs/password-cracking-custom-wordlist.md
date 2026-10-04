@@ -23,7 +23,7 @@ The website's source code does not reveal any additional clues.
 
 ## Enumeration for the user flag
 
-Let's enumerate some of the most obvious locations on the website to see if anything is publicly available. Trying the `/backup` path reveals that the directory exists and is publicly accessible. The content is:
+Let’s enumerate some of the most obvious locations on the website to see if anything is publicly available. Trying the `/backup` path reveals that the directory exists and is publicly accessible. The content is:
 ```
 forum-users.sql                 866
 README.txt                      150
@@ -31,7 +31,7 @@ README.txt                      150
 
 This is the account export from a retired forum, mentioned in Entry 15. The `forum-users.sql` file contains usernames and unsalted MD5 hashes of their passwords. There are four users in the SQL file, with usernames matching those on the Team page. It is safe to assume that these are the team members' accounts.
 
-Let's extract the usernames and hashes from `forum-users.sql` into a separate file in a format suitable for `john`, and name it `forum.hash`. This can be done manually or with a simple `awk` script. Now, using information from the website, let's build a short wordlist of possible passwords - names of favorite games, pets, and hobbies - in `forum.lst`. At this point, we do not need to worry about capitalization or variants. Those will be handled by `rules` in `john`.
+Let’s extract the usernames and hashes from `forum-users.sql` into a separate file in a format suitable for `john`, and name it `forum.hash`. This can be done manually or with a simple `awk` script. Now, using information from the website, let’s build a short wordlist of possible passwords—names of favorite games, pets, and hobbies—in `forum.lst`. At this point, we do not need to worry about capitalization or variants. Those will be handled by `rules` in `john`.
 
 ## Exploitation for the user flag.txt
 
@@ -42,7 +42,7 @@ john --format=Raw-MD5 --show forum.hash
 ```
 With the wordlist we prepared, `john` managed to guess the password of the forum user `mika`.
 
-Let's see if Mika Sundstrom reused her forum password for the Dev Portal. She did! We successfully logged in as Mika to the Dev Portal and found the user flag.
+Let’s see if Mika Sundstrom reused her forum password for the Dev Portal. She did! We successfully logged in as Mika to the Dev Portal and found the user flag.
 
 ## Enumeration for the root flag
 
@@ -60,12 +60,12 @@ Archive:  vault.zip
       265                     2 files
 ```
 
-Let's extract the hash in a format suitable for `john`:
+Let’s extract the hash in a format suitable for `john`:
 ```
 zip2john -o flag-root.txt vault.zip > vault.hash 
 ```
 
-We know that what we are looking for is actually a passphrase, and that it was set personally by Otso. Let's prepare a new wordlist of base versions of possible passphrases based on what we know about Otso.
+We know that what we are looking for is actually a passphrase, and that it was set personally by Otso. Let’s prepare a new wordlist of base versions of possible passphrases based on what we know about Otso.
 
 ## Exploitation for the root flag
 Running `john` with the default rules did not produce a result.

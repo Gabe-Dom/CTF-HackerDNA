@@ -27,7 +27,7 @@ Content-Length: 89
 <html><body><h1>Server is Running</h1><p>There is nothing to see here.</p></body></html>
 ```
 
-This exercise is about `nmap`, so let's start with a scan of open ports. We're still in the reconnaissance phase so we do "stealth" mode, that is sending `SYN` only:
+This exercise is about `nmap`, so let’s start with a scan of open ports. We’re still in the reconnaissance phase, so we do "stealth" mode, which means sending `SYN` only:
 ```
 $ nmap -sS $TARGET
 Starting Nmap 7.98 ( https://nmap.org ) at 2026-09-03 07:19 +0000
@@ -44,7 +44,7 @@ We got confirmation of the HTTP server plus information about `telnet` service r
 
 ## Enumeration
 
-Let's see if we can actually connect to the `telnet` service:
+Let’s see if we can actually connect to the `telnet` service:
 ```
 $ telnet $TARGET
 Trying 108.130.16.39...
@@ -84,7 +84,7 @@ PID   USER     TIME  COMMAND
 The user flag is located in a text file in `user`'s home dir.
 
 ### Exploit 2 (root flag)
-Let's try the most simple privilege escalation using `su`.
+Let’s try the most simple privilege escalation using `su`.
 ```
 $ su -
 Password: 

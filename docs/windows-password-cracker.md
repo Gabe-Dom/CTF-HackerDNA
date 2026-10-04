@@ -13,7 +13,7 @@
 
 The scenario of this exercise starts at the moment we gained access to a Windows system and extracted the Security Account Manager (SAM) database with password hashes for user accounts. Our objective is to crack the NTLM hash for the `secretuser` account.
 
-Our goal is to recover the password for one user only, so let's extract the corresponding line from the downloaded file:
+Our goal is to recover the password for one user only, so let’s extract the corresponding line from the downloaded file:
 ```cat sam_hashes.txt | grep '^secretuser:' > secretuser.txt```
 
 ## Enumeration

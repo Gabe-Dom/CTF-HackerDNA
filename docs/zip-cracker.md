@@ -13,7 +13,7 @@
 
 The lab starts with a page offering a password-protected archive for download. We save it locally as `secret_archive.zip`.
 
-Let's examine it:
+Let’s examine it:
 ```
 $ zipinfo secret_archive.zip
 Archive:  secret_archive.zip
@@ -32,7 +32,7 @@ The output tells us that the archive uses weak, obsolete PKZIP encryption.
 
 ## Exploitation
 
-Let's run the tool:
+Let’s run the tool:
 ```
 john --wordlist=rockyou.txt archive.john 
 john --show archive.john

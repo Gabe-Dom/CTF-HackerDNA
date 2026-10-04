@@ -40,7 +40,7 @@ The interesting finding is:
 Custom Metadata: yes
 ```
 
-Let's examine the metadata with `exiftool`. It reveals a custom metadata field named `Custom Flag`, which contains the flag.
+Let’s examine the metadata with `exiftool`. It reveals a custom metadata field named `Custom Flag`, which contains the flag.
 
 ## Recommended mitigation
 

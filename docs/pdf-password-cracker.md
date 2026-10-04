@@ -30,7 +30,7 @@ Warning      : Document is password protected (use Password option)
 According to `exiftool` this indeed is a password protected PDF.
 
 ## Exploitation
-Let's check if the password can be cracked with `john` using a popular wordlist.
+Let’s check if the password can be cracked with `john` using a popular wordlist.
 ```
 pdf2john.py secure_document.pdf >pdf.john
 john --wordlist=rockyou.txt pdf.john

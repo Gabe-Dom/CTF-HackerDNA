@@ -14,7 +14,7 @@ The lab provides a password-protected Microsoft Office file `confidential_report
 
 ## Enumeration
 
-Let's examine the file with `john`:
+Let’s examine the file with `john`:
 
 ```
 office2john confidential_report.docx > report.john 
@@ -25,7 +25,7 @@ As expected, `john` recognizes the hash as the `office` format, for which it has
 
 ## Exploitation
 
-Let's crack it now:
+Let’s crack it now:
 ```
 john --format=office-opencl --wordlist=rockyou.txt report.john 
 john --format=office-opencl --show report.john 

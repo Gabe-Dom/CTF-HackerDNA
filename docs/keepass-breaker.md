@@ -28,7 +28,7 @@ John recognized the hash as "KeePas-Argon2".
 
 ## Exploitation
 
-Let's crack the password with `john` using OpenCL implementation of KeePas Argon2:
+Let’s crack the password with `john` using OpenCL implementation of KeePas Argon2:
 ```
 john --format=KeePass-Argon2-opencl --wordlist=rockyou.txt challenge_vault.john 
 ```

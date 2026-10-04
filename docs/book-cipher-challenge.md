@@ -11,11 +11,11 @@
 ---
 ## Reconnaissance
 
-The lab provides a message encrypted with a Book Cipher and the reference text (the book). Let's save the ciphertext as `cipher.txt` and the reference as `reference.txt`.
+The lab provides a message encrypted with a Book Cipher and the reference text (the book). Let’s save the ciphertext as `cipher.txt` and the reference as `reference.txt`.
 
 ## Enumeration
 
-A quick look at the ciphertext suggests it mostly references line 5, with a few occasional references to other lines. Let's use a simple one-liner to create a unique list of referenced lines:
+A quick look at the ciphertext suggests it mostly references line 5, with a few occasional references to other lines. Let’s use a simple one-liner to create a unique list of referenced lines:
 ```
 cat cipher.txt | awk 'BEGIN { RS=" "; FS=":" } !used[$1]++ { print $1 }' | sort
 ```
@@ -54,7 +54,7 @@ NR == FNR {
 }
 END { print "" }
 ```
-Let's save the program as `book_decrypt.awk` and run it:
+Let’s save the program as `book_decrypt.awk` and run it:
 ```
 ./book_decrypt.awk ref.txt cipher.txt
 ```
