@@ -26,6 +26,7 @@ nav:
       - HTTP Smuggling: http-smuggling.md
       - Infiltrator: infiltrator.md
       - KeePass Breaker: keepass-breaker.md
+      - Memory Forensics: memory-forensics.md
       - Nmap Commands Lab: nmap-commands-lab.md
       - Office Password Cracker: office-password-cracker.md
       - Packet Pursuit: packet-pursuit.md
